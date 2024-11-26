@@ -1,12 +1,11 @@
 {
   "name": "mernbackendformregisterapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js -e js,hbs",
-    "build": "echo 'Nothing to build for Express.js' "  
+    "build": "npx babel src -d dist"
   },
   "keywords": [],
   "author": "",
