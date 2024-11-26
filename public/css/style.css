@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font: 16px 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    color: #ffdd57;
+}
+
+/* Home Page Styles */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.home .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.home .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles (Login and Signup) */
+section {
+    max-width: 100%;
+    margin: 50px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form button.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button.btn:hover {
+    background-color: #0056b3;
+}
+
+.form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form p a {
+    font-weight: bold;
+}
+
+
+/* cdndhcdh*/
+.form-gap {
+    padding-top: 70px;
+}
+
+@import "compass/css3";
+
+
+
+
+/* --- PANEL --- */
+
+.panel {
+  background: #35363C;
+  margin: 40px auto;
+  width: 300px;
+  border: 1px solid #46464C;
+  border-radius: 3px;
+  padding: 40px;
+  box-shadow: 1px 3px #26272C;
+}
+
+.panel__avatar {
+  background: #fff;
+  border: 8px solid #46393D;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 40px;
+  display: block;
+}
+
+/* --- INPUTS --- */
+
+.inputs__item {
+  padding-bottom: 40px;
+}
+
+.inputs__label {
+  color: #A64C41;
+  display: block;
+}
+
+.inputs__input {
+  border: none;
+  border-bottom: 1px solid #6B6C70;
+  background: #35363C;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font: 16px 'Helvetica Neue', Helvetica, sans-serif;
+  color: #A64C41;
+}
+
+.inputs__input:focus {
+  outline: none;
+}
+
+.inputs__item--new .inputs__label,
+.inputs__item--new .inputs__input {
+  color: #6498BB;
+}
+
+.inputs__item--cta {
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+
+   
+/*edhch*/
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        flex-direction: column;
+    }
+
+    .navbar .nav-links li {
+        margin: 5px 0;
+    }
+}
