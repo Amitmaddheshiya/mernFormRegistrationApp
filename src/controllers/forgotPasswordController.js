@@ -85,8 +85,8 @@ const handleResetPassword = async (req, res) => {
         user.resetToken = undefined;
         user.resetTokenExpire = undefined;
         await user.save();
-
-        res.status(200).send('Password reset successfully');
+        res.status(200).render('login');
+        
     } catch (error) {
         console.error(error);
         res.status(500).send('Internal Server Error');
